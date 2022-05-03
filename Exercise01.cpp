@@ -1,12 +1,13 @@
 #include <iostream>
 #include "Student.h"
+
 using namespace std;
 int main() {
   
 // == DO NOT CHANGE THE MAIN PROGRAM =================
-   Student mystd;
-   mystd.assignDetails(1212, "Amalinga");
-   mystd.display();
+   Student st1;
+   st1.assignDetails(1212, (char *)"Amalinga");
+   st1.display();
 //==========================
    return 0;
 }
